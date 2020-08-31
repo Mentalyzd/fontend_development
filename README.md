@@ -1,4 +1,4 @@
-# fontend_development
+# Vak frontend development
 
 # Week 1
 Wat is je startniveau?
