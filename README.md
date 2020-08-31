@@ -65,9 +65,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Rood
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** ik wil graag zo goed mogelijk de gehele site nabouwen met elke reponsive brake point.
 
 **Je opdracht:** [Zalando website](https://www.zalando.nl/heren-home/)
 
