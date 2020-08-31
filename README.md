@@ -1,12 +1,3 @@
-# Vak frontend development
-
-# Week 1
-Wat is je startniveau?
-Ik heb al enige kennis van HTML, CSS en JavaScript daarom denk ik dat ik rond de intermediate zit.
-
-Welke webiste en waar ligt de focus?
-https://www.zalando.nl/heren-home/ ik wil graag zo goed mogelijk de gehele site nabouwen met elke reponsive brake point.
-
 # Procesverslag
 **Auteur:** Christiaan Zandbergen
 
@@ -73,7 +64,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(1).png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(2).png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(3).png)
 
 **Breakdown-schets(en):**
 
