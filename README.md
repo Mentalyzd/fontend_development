@@ -69,7 +69,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -kies uit responsive óf surface plane-
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** [Zalando website](https://www.zalando.nl/heren-home/)
 
 **Screenshot(s):**
 
