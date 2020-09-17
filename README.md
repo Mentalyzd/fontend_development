@@ -39,6 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+
 Eerst ben ik begonnen met de desktop versie. Nu ben ik veranderd van aanpak door eerst op mobiel te focussen en daarna pas responsive maken. Met de desktop versie had ik erg veel moeite om de lay-out goed in HTML te vertalen. Nu ik bezig ben met de mobiele site gaat alles veel beter en overzichtelijker.
 
 **Screenshot(s):**
