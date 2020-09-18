@@ -342,6 +342,9 @@ section:nth-of-type(3) article footer h2{
   font-size: 0.8em;
   font-weight: 300;
   margin: 0.25em 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 section:nth-of-type(3) article footer p{
