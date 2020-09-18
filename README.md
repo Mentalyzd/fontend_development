@@ -54,6 +54,14 @@ Eerst ben ik begonnen met de desktop versie. Nu ben ik veranderd van aanpak door
 
 -samen met je groepje opstellen-
 
+- dingen naast elkaar zetten. Op mobiel bijvoorbeeld 2 en dekstop 4
+- Hoe kun je makkelijker zien nth gebeuren
+- Mag je classes  gebruiken
+- Mag je classes  gebruiken
+- Moet je hamburger laten werken? 
+- Hoe zet je het om in een hamburgermenu
+- flexbox vragen, naast elkaar zetten bijvoorbeeld.
+
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
