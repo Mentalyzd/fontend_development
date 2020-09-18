@@ -7,10 +7,16 @@ var carouselWith = courselCont.offsetWidth;
 var carouselChild = courselCont.childElementCount;
 var carouselStep = carouselWith/carouselChild*2;
 
+function updateCont() {
+  carouselWith = courselCont.offsetWidth;
+  carouselChild = courselCont.childElementCount;
+  carouselStep = carouselWith/carouselChild*2;
+}
 
 var positie = 0;
 
 function naarvoren(){
+  updateCont();
   if (positie >= carouselWith - carouselStep - carouselStep) {
     carouselFwdBtn.style.display = "none";
     positie = carouselWith - carouselStep;
@@ -23,6 +29,7 @@ function naarvoren(){
 }
 
 function naarachter(){
+  updateCont();
   if (positie <= carouselStep) {
     carouselBwdBtn.style.display = "none";
     positie = 0;
