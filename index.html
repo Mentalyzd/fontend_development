@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Christiaan Zandbergen">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Zalando | Herenmode</title>
 	<link href="styles/style.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 				</ul>
 			</div>
 			<div class="bottom_nav_wrap">
-				<div class="hamburger_cont">
+				<div class="hamburger_cont" id="menu_open">
 					<div class=""></div>
 					<div class=""></div>
 					<div class=""></div>
@@ -33,6 +33,33 @@
 				<form class="" action="index.html" method="post">
 					<input type="text" name="" value="Zoek" placeholder="Zoek">
 				</form>
+			</div>
+			<div class="mobile_menu_wrap" id="mobile_menu_wrap">
+				<div class="mobile_menu_cont">
+					<svg class="zds-icon RC794g _98USAM DlJ4rT H3jvU7" id="menu_close" focusable="false" fill="currentColor" viewBox="0 0 24 24" aria-hidden="false" aria-labelledby="cross-22e5e" role="img"><title id="cross-22e5e">cross</title><path d="M13.06 12l7.72-7.73a.75.75 0 10-1.06-1.06L12 10.94 4.27 3.2a.75.75 0 10-1.06 1.06L10.94 12 3.22 19.7a.75.75 0 101.06 1.06L12 13.06l7.71 7.71a.75.75 0 001.06 0c.3-.29.3-.76 0-1.06L13.06 12z"></path></svg>
+					<h1>Heren</h1>
+					<ul>
+						<li><a href="#">Dames</a></li>
+						<li><a href="#">Heren</a></li>
+						<li><a href="#">Kinderen</a></li>
+					</ul>
+					<ul>
+						<li><a href="#"><img src="images/nav_1.jpg" alt=""><p>Get the look</p></a></li>
+						<li><a href="#"><img src="images/nav_2.jpg" alt=""><p>Kleding</p></a></li>
+						<li><a href="#"><img src="images/nav_3.jpg" alt=""><p>Schoenen</p></a></li>
+						<li><a href="#"><img src="images/nav_4.jpg" alt=""><p>Sport</p></a></li>
+						<li><a href="#"><img src="images/nav_5.jpg" alt=""><p>Accessoires</p></a></li>
+						<li><a href="#"><img src="images/nav_6.jpg" alt=""><p>Verzorging</p></a></li>
+						<li><a href="#"><img src="images/nav_7.jpg" alt=""><p>Designer</p></a></li>
+						<li><a href="#"><img src="images/nav_8.jpg" alt=""><p>Merken</p></a></li>
+						<li><a href="#"><img src="images/nav_9.jpg" alt=""><p>SALE</p></a></li>
+						<li><a href="#"><img src="images/nav_2.jpg" alt=""><p>Pre-owned</p></a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Klantenservice</a></li>
+						<li><a href="#">Nieuwsbrief</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -52,7 +79,7 @@
 		<img src="images/schoenen_banner.jpg" alt="">
 	</section>
 
-	<section>
+	<section class="carousel_style" data-carousel="1">
 		<div class="carousel_backwards" id="carousel_bwd_btn">
 			<div></div>
 		</div>
@@ -60,7 +87,7 @@
 			<div></div>
 		</div>
 
-		<div id="coursel_cont">
+		<div class="coursel_cont" id="coursel_cont">
 
 			<article>
 				<header>
@@ -211,7 +238,340 @@
 		<img src="images/voetbal_img_1.png" alt="">
 	</section>
 
+	<section class="carousel_style"  data-carousel="2">
+		<div class="carousel_backwards" id="carousel_bwd_btn">
+			<div></div>
+		</div>
+		<div class="carousel_forwards" id="carousel_fwd_btn">
+			<div></div>
+		</div>
 
+		<div class="coursel_cont" id="coursel_cont">
+
+			<article>
+				<header>
+					<img src="images/productImg/schoen_img_1.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 99,95</h1>
+					<h2>Stan smith sports inspired</h2>
+					<p>adidas Originals</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_2.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 54,95</h1>
+					<h2>Real madrid aeroready sports footbal</h2>
+					<p>adidas Originals</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_3.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>Vanaf € 84,95</h1>
+					<h2>Fc bayern muenchen aeroready footbal</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_4.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 89,95</h1>
+					<h2>arsenal fc aeroready sports footbal</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_5.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 59,95</h1>
+					<h2>REAL - Fanartikel - white</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_6.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 9,95</h1>
+					<h2>acadamy unisex - Kniekousen - black</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_2.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 59,95</h1>
+					<h2>REAL - Fanartikel - white</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_6.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 9,95</h1>
+					<h2>acadamy unisex - Kniekousen - black</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+
+		</div>
+	</section>
+
+	<section class="carousel_style"  data-carousel="3">
+		<div class="carousel_backwards" id="carousel_bwd_btn">
+			<div></div>
+		</div>
+		<div class="carousel_forwards" id="carousel_fwd_btn">
+			<div></div>
+		</div>
+
+		<div class="coursel_cont" id="coursel_cont">
+
+			<article>
+				<header>
+					<img src="images/productImg/schoen_img_1.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 99,95</h1>
+					<h2>Stan smith sports inspired</h2>
+					<p>adidas Originals</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_2.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 54,95</h1>
+					<h2>Real madrid aeroready sports footbal</h2>
+					<p>adidas Originals</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_3.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>Vanaf € 84,95</h1>
+					<h2>Fc bayern muenchen aeroready footbal</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_4.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 89,95</h1>
+					<h2>arsenal fc aeroready sports footbal</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_5.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 59,95</h1>
+					<h2>REAL - Fanartikel - white</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_6.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p><span>Duurzaamheid</span></p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 9,95</h1>
+					<h2>acadamy unisex - Kniekousen - black</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_2.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 59,95</h1>
+					<h2>REAL - Fanartikel - white</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+			<article>
+				<header>
+					<img src="images/productImg/img_6.png" alt="">
+					<div class="like_button">
+						<img src="images/Favoriet_icon.svg" alt="">
+					</div>
+					<div>
+						<p>Hot Drop</p>
+					</div>
+				</header>
+				<footer>
+					<h1>€ 9,95</h1>
+					<h2>acadamy unisex - Kniekousen - black</h2>
+					<p>adidas Performance</p>
+				</footer>
+			</article>
+
+
+		</div>
+	</section>
+	<footer>
+		<section>
+			<h1>Onze kleding- en schoenenmerken</h1>
+			<div class="">
+				<a href="#">adidas Originals</a>
+				<a href="#">America Today</a>
+				<a href="#">Antony Mora</a>
+				<a href="#">ASICS</a>
+				<a href="#">Birkenstocks</a>
+				<a href="#">Bjorn Borg</a>
+				<a href="#">Calvin Klein</a>
+				<a href="#">Clarks</a>
+				<a href="#">Converse</a>
+				<a href="#">Cowboysbag</a>
+				<a href="#">Designual</a>
+				<a href="#">Diesel</a>
+				<a href="#">Dr. Martens</a>
+				<a href="#">Eastpak</a>
+				<a href="#">Ecco</a>
+				<a href="#">Esprit</a>
+				<a href="#">Expresso</a>
+				<a href="#">G-star</a>
+				<a href="#">Gaastra</a>
+				<a href="#">Gabor</a>
+				<a href="#">Guess</a>
+			</div>
+		</section>
+		<section>
+
+		</section>
+	</footer>
 
 	<script src="scripts/script.js"></script>
 </body>
