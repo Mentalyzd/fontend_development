@@ -948,6 +948,7 @@ footer section:nth-of-type(4) > div:nth-of-type(2) ul li a svg{
 /* ==================== */
 
 main{
+  background: linear-gradient( rgba(244,244,244,1) 0%, rgba(255,255,255,1) 0.5%, rgba(255,255,255,1) 100%);
   box-sizing: border-box;
   padding: 0 2em;
   display: grid;
@@ -1619,6 +1620,7 @@ main > section > footer p:nth-of-type(2) {
   }
 
   main > aside button {
+    background: transparent;
     padding: 0;
     border: none;
     border-bottom: 2px solid transparent;
