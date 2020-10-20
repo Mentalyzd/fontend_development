@@ -1,4 +1,9 @@
 /* CSS Document */
+
+/* ==================== */
+/*CSS voor pagina 1 (Home)*/
+/* ==================== */
+
 *, *::after, *::before {
   box-sizing:border-box;
   margin: 0;
@@ -13,6 +18,10 @@ body{
   width: 100%;
   //background: #453;
 }
+
+/* ==================== */
+/* Navbar */
+/* ==================== */
 
 header{
   width: 100%;
@@ -109,296 +118,6 @@ header nav .bottom_nav_wrap form input{
   font-size: 1.1em;
   font-weight: 100;
   color: #666;
-}
-
-body > section:nth-of-type(1){
-  background: #940000;
-  margin-bottom: 2em;
-}
-
-body > section:nth-of-type(1) div{
-  padding: 2em;
-  box-sizing: border-box;
-}
-
-body > section:nth-of-type(1) h1{
-  font-size: 0.9em;
-  font-weight: bold;
-  color: #fff;
-}
-
-body > section:nth-of-type(1) h1 span{
-  display: block;
-  font-size: 2em;
-  font-weight: bold;
-  color: #fff;
-  padding: 0.5em 0;
-}
-
-body > section:nth-of-type(1) p{
-  font-size: 0.8em;
-  font-weight: 300;
-  color: #222;
-  background: #fff;
-  border-radius: 0.15em;
-  padding: 0.5em;
-  width: 16em;
-}
-
-body > section:nth-of-type(1) p span{
-  font-weight: bold;
-}
-
-body > section:nth-of-type(1) a{
-  text-decoration: none;
-  display: inline-block;
-  font-weight: bold;
-  padding: 1.5em 0 0.2em 0;
-  color: #fff;
-  border-bottom: 2px solid #fff;
-}
-
-body > section:nth-of-type(1) img{
-  width: 100%;
-}
-
-
-section:nth-of-type(2){
-  background: #f1f1f1;
-  //margin-bottom: 2em;
-}
-
-section:nth-of-type(2) div{
-  padding: 2em;
-  box-sizing: border-box;
-}
-
-section:nth-of-type(2) h1{
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #666;
-}
-
-section:nth-of-type(2) h1 span{
-  display: block;
-  color: #222;
-}
-
-section:nth-of-type(2) a{
-  text-decoration: none;
-  display: inline-block;
-  font-weight: bold;
-  padding: 1.5em 0 0.2em 0;
-  color: #222;
-  border-bottom: 2px solid #222;
-}
-
-section:nth-of-type(2) img{
-  width: 100%;
-  height: 15em;
-  object-fit: cover;
-  object-position: top;
-}
-
-.carousel_style{
-  position: relative;
-  display: flex;
-  padding: 2em;
-  flex-direction: row;
-  overflow: hidden;
-  width: 100%;
-}
-
-.carousel_style .carousel_forwards{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 3.5em;
-  height: 3.5em;
-  background: #fff;
-  border-radius: 0.15em;
-  border: 1px solid #eee;
-  right: 2em;
-  top: 50%;
-  z-index: 5;
-  cursor: pointer;
-  opacity: 0.8;
-  animation: 0.5s fadeIn ease forwards;
-}
-
-.carousel_style .carousel_forwards div{
-  width: 0.8em;
-  height: 0.8em;
-  border-top: 2px solid #222;
-  border-right: 2px solid #222;
-  transform: translateX(-3px) rotate(45deg);
-}
-
-.carousel_style .carousel_backwards{
-  display: none;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 3.5em;
-  height: 3.5em;
-  background: #fff;
-  border-radius: 0.15em;
-  border: 1px solid #eee;
-  left: 2em;
-  top: 50%;
-  z-index: 5;
-  cursor: pointer;
-  opacity: 0.8;
-  animation: 0.5s fadeIn ease forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
-.carousel_style .carousel_backwards div{
-  width: 0.8em;
-  height: 0.8em;
-  border-bottom: 2px solid #222;
-  border-left: 2px solid #222;
-  transform: translateX(3px) rotate(45deg);
-}
-
-.carousel_style div:nth-of-type(3){
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  transform: translateX();
-  transition: 0.5s ease;
-}
-
-.carousel_style article{
-  width: 42vw;
-  margin-right: 1em;
-}
-
-.carousel_style article header{
-  position: relative;
-}
-
-.carousel_style article header img{
-  width: 100%;
-}
-
-.carousel_style article header .like_button{
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  width: 2.25em;
-  height: 2.25em;
-  background: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel_style article header .like_button img{
-  width: 1.25em;
-  height: 1.25em;
-}
-
-.carousel_style article header div:nth-of-type(2){
-  display: flex;
-  flex-direction: row;
-  font-size: 0.8em;
-  font-weight: 300;
-  position: absolute;
-  bottom: 0;
-  //margin: 1em;
-}
-
-.carousel_style article header div:nth-of-type(2) p{
-  font-size: 0.85em;
-  margin: 0 0 1em 0.8em;
-  padding: 0.5em;
-  background: #fff;
-}
-
-.carousel_style article header div:nth-of-type(2) p span{
-  font-weight: 600;
-  color: green;
-}
-
-.carousel_style article footer h1{
-  font-size: 0.8em;
-  font-weight: 800;
-  margin-top: 0.25em;
-}
-
-.carousel_style article footer h2{
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: 300;
-  margin: 0.25em 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.carousel_style article footer p{
-  font-size: 0.8em;
-  font-weight: 300;
-}
-
-section:nth-of-type(4){
-  background: #f1f1f1;
-  margin-bottom: 2em;
-}
-
-section:nth-of-type(4) div{
-  padding: 2em;
-  box-sizing: border-box;
-}
-
-section:nth-of-type(4) h1{
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #666;
-}
-
-section:nth-of-type(4) h1 span{
-  display: block;
-  color: #222;
-}
-
-section:nth-of-type(4) a{
-  text-decoration: none;
-  display: inline-block;
-  font-weight: bold;
-  padding: 1.5em 0 0.2em 0;
-  color: #222;
-  border-bottom: 2px solid #222;
-}
-
-section:nth-of-type(4) img{
-  width: 100%;
-  min-height: 15em;
-  max-height: 20em;
-  object-fit: cover;
-  object-position: top;
-}
-
-
-footer section{
-  box-sizing: border-box;
-  padding: 0 2em;
-}
-
-footer section div{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .mobile_menu_wrap{
@@ -593,4 +312,1182 @@ footer section div{
   height: 100%;
   text-decoration: none;
   color: #1a1a1a;
+}
+
+/* ==================== */
+/* Navbar end */
+/* ==================== */
+
+/* ==================== */
+/* Section 1 Home*/
+/* ==================== */
+
+body > section:nth-of-type(1){
+  background: #940000;
+  margin-bottom: 2em;
+}
+
+body > section:nth-of-type(1) div{
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+body > section:nth-of-type(1) h1{
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+}
+
+body > section:nth-of-type(1) h1 span{
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  padding: 0.5em 0;
+}
+
+body > section:nth-of-type(1) p{
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #222;
+  background: #fff;
+  border-radius: 0.15em;
+  padding: 0.5em;
+  width: 16em;
+}
+
+body > section:nth-of-type(1) p span{
+  font-weight: bold;
+}
+
+body > section:nth-of-type(1) a{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1.5em 0 0.2em 0;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+body > section:nth-of-type(1) img{
+  width: 100%;
+}
+
+/* ==================== */
+/* Section 1 Home end*/
+/* ==================== */
+
+/* ==================== */
+/* Section 2 Home*/
+/* ==================== */
+
+body > section:nth-of-type(2){
+  background: #f1f1f1;
+  //margin-bottom: 2em;
+}
+
+body > section:nth-of-type(2) div{
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+body > section:nth-of-type(2) h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #666;
+}
+
+body > section:nth-of-type(2) h1 span{
+  display: block;
+  color: #222;
+}
+
+body > section:nth-of-type(2) a{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1.5em 0 0.2em 0;
+  color: #222;
+  border-bottom: 2px solid #222;
+}
+
+body > section:nth-of-type(2) img{
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ==================== */
+/* Section 2 Home end*/
+/* ==================== */
+
+/* ==================== */
+/* Carousel section Home*/
+/* ==================== */
+
+.carousel_style{
+  position: relative;
+  display: flex;
+  padding: 2em;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel_style .carousel_forwards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 3.5em;
+  height: 3.5em;
+  background: #fff;
+  border-radius: 0.15em;
+  border: 1px solid #eee;
+  right: 2em;
+  top: 50%;
+  z-index: 5;
+  cursor: pointer;
+  opacity: 0.8;
+  animation: 0.5s fadeIn ease forwards;
+}
+
+.carousel_style .carousel_forwards div{
+  width: 0.8em;
+  height: 0.8em;
+  border-top: 2px solid #222;
+  border-right: 2px solid #222;
+  transform: translateX(-3px) rotate(45deg);
+}
+
+.carousel_style .carousel_backwards{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 3.5em;
+  height: 3.5em;
+  background: #fff;
+  border-radius: 0.15em;
+  border: 1px solid #eee;
+  left: 2em;
+  top: 50%;
+  z-index: 5;
+  cursor: pointer;
+  opacity: 0.8;
+  animation: 0.5s fadeIn ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.carousel_style .carousel_backwards div{
+  width: 0.8em;
+  height: 0.8em;
+  border-bottom: 2px solid #222;
+  border-left: 2px solid #222;
+  transform: translateX(3px) rotate(45deg);
+}
+
+.carousel_style div:nth-of-type(3){
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  transform: translateX();
+  transition: 0.5s ease;
+}
+
+.carousel_style article{
+  width: 42vw;
+  margin-right: 1em;
+}
+
+.carousel_style article header{
+  position: relative;
+}
+
+.carousel_style article header img{
+  width: 100%;
+}
+
+.carousel_style article header .like_button{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 2.25em;
+  height: 2.25em;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_style article header .like_button img{
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.carousel_style article header div:nth-of-type(2){
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  //margin: 1em;
+}
+
+.carousel_style article header div:nth-of-type(2) p{
+  font-size: 0.85em;
+  margin: 0 0 1em 0.8em;
+  padding: 0.5em;
+  background: #fff;
+}
+
+.carousel_style article header div:nth-of-type(2) p span{
+  font-weight: 600;
+  color: green;
+}
+
+.carousel_style article footer h1{
+  font-size: 0.8em;
+  font-weight: 800;
+  margin-top: 0.25em;
+}
+
+.carousel_style article footer h2{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 0.25em 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel_style article footer p{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+/* ==================== */
+/* Carousel section Home end*/
+/* ==================== */
+
+/* ==================== */
+/* Section 4 Home*/
+/* ==================== */
+
+body > section:nth-of-type(4){
+  background: #f1f1f1;
+  margin-bottom: 2em;
+}
+
+body > section:nth-of-type(4) div{
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+body > section:nth-of-type(4) h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #666;
+}
+
+body > section:nth-of-type(4) h1 span{
+  display: block;
+  color: #222;
+}
+
+body > section:nth-of-type(4) a{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1.5em 0 0.2em 0;
+  color: #222;
+  border-bottom: 2px solid #222;
+}
+
+body > section:nth-of-type(4) img{
+  width: 100%;
+  min-height: 15em;
+  max-height: 20em;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ==================== */
+/* Section 4 Home end*/
+/* ==================== */
+
+/* ==================== */
+/* Footer Section 1*/
+/* ==================== */
+
+
+footer section:nth-of-type(1){
+  box-sizing: border-box;
+  padding: 0 2em 2em 2em;
+}
+
+footer section:nth-of-type(1) h1{
+  font-size: 1.1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer section:nth-of-type(1) div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer section:nth-of-type(1) div a{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 1em;
+}
+
+footer section:nth-of-type(1) div a span{
+
+  font-size: 0.9em;
+  font-weight: 200;
+  color: #1a1a1a;
+  padding: 0.8em;
+}
+
+/* ==================== */
+/* Footer Section 1 end*/
+/* ==================== */
+
+/* ==================== */
+/* Footer Section 2 */
+/* ==================== */
+
+footer section:nth-of-type(2){
+  box-sizing: border-box;
+  padding: 2em;
+  margin-bottom: 1.5em;
+  background-image: url('../images/footer_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer section:nth-of-type(2) > div{
+  padding: 1.8em;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.15em;
+}
+
+footer section:nth-of-type(2) > div h1{
+
+}
+
+footer section:nth-of-type(2) > div p{
+  font-weight: 300;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+footer section:nth-of-type(2) > div form{
+  display: flex;
+  flex-direction: column;
+}
+
+footer section:nth-of-type(2) > div form input[type=text]{
+  padding: 0.8em;
+  margin-bottom: 1em;
+}
+
+
+
+footer section:nth-of-type(2) > div form div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.8em;
+}
+
+footer section:nth-of-type(2) > div form input[type=radio]{
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+
+
+footer section:nth-of-type(2) > div form div label{
+  font-weight: 300;
+}
+
+footer section:nth-of-type(2) > div form input[type=submit]{
+  padding: 0.8em;
+  margin-bottom: 0.5em;
+  background: #1a1a1a;
+  border: none;
+  width: 17em;
+  border-radius: 0.25em;
+  color: #fff;
+  font-weight: bolder;
+}
+
+footer section:nth-of-type(2) > div form a{
+  font-size: 0.7em;
+  font-weight: 300;
+  line-height: 1.5em;
+  width: 36em;
+  color: #666;
+}
+
+/* ==================== */
+/* Footer Section 2 end*/
+/* ==================== */
+
+/* ==================== */
+/* Footer Section 3*/
+/* ==================== */
+
+footer section:nth-of-type(3) {
+  box-sizing: border-box;
+
+}
+
+footer section:nth-of-type(3) div {
+  padding: 1em 2em 0 2em;
+  background: #dcdcdc;
+  border-top: 1px solid #cfcfcf;
+}
+
+
+
+footer section:nth-of-type(3) div h1{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #474141;
+  //padding-bottom: 0.8em;
+}
+
+footer section:nth-of-type(3) div ul{
+
+  overflow: hidden;
+  height: 1px;
+  padding-top: 1em;
+  transition: 0.5s ease;
+}
+
+.open_footer_info{
+  height: 12em !important;
+  transition: 0.5s ease;
+}
+
+footer section:nth-of-type(3) div ul li{
+  color: #666;
+  list-style: none;
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+footer section:nth-of-type(3) div ul li:hover{
+  text-decoration: underline;
+}
+
+/* ==================== */
+/* Footer Section 3 end*/
+/* ==================== */
+
+/* ==================== */
+/* Footer Section 4*/
+/* ==================== */
+
+footer section:nth-of-type(4) {
+  padding: 2em;
+  background: #4a4a4a;
+}
+
+footer section:nth-of-type(4) > ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer section:nth-of-type(4) > ul li{
+  list-style: none;
+  margin-right: 0.8em;
+  margin-bottom: 0.5em;
+  padding-right: 0.8em;
+  border-right: 2px solid #fff;
+}
+
+footer section:nth-of-type(4) > ul li a{
+  font-size: 0.9em;
+  white-space: nowrap;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(1){
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em 0 0 0;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(1) h1{
+  font-size: 1em;
+  font-weight: 100;
+  color: #fff;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(1) ul{
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 0.5em;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(1) ul li{
+  list-style: none;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2){
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2) h1{
+  font-size: 1em;
+  font-weight: 100;
+  color: #fff;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2) ul{
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0 1em;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2) ul li{
+  list-style: none;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2) ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50em;
+  padding: 0.5em;
+  background: #b2b2b2;
+}
+
+footer section:nth-of-type(4) > div:nth-of-type(2) ul li a svg{
+  width: 2em;
+  height: 2em;
+  fill: #1a1a1a;
+}
+
+/* ==================== */
+/* Footer Section 4*/
+/* ==================== */
+
+
+/* ==================== */
+/*CSS voor pagina 2 */
+/* ==================== */
+
+/* ==================== */
+/* Page 2 main*/
+/* ==================== */
+
+main{
+  box-sizing: border-box;
+  padding: 0 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main > h1 {
+  font-size: 1em;
+  color: #1a1a1a;
+  padding: 1em 0;
+  order: -2;
+  grid-column: 1 / 1;
+}
+
+main > aside {
+  grid-column: 1 / 3;
+  order: 2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+main > aside button {
+  font-size: 0.9em;
+  color: #1a1a1a;
+  padding: 0.5em 1em;
+  background: #fff;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+}
+
+main > aside button:hover {
+  border: 1px solid #1a1a1a;
+  cursor: pointer;
+}
+
+main > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+main > div div:nth-of-type(1){
+  display: none;
+  position: relative;
+}
+
+main > div div:nth-of-type(2){
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column: 1 / 1;
+  order: -1;
+}
+
+main > div div:nth-of-type(2) p{
+  font-weight: 200;
+}
+
+main > section {
+  margin-top: 4em;
+  order: 3;
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4em 1em;
+}
+
+main > section article{
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+main > section article header{
+  position: relative;
+}
+
+main > section article header img{
+  width: 100%;
+}
+
+main > section article header .like_button{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 2.25em;
+  height: 2.25em;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > section article header .like_button img{
+  width: 1.25em;
+  height: 1.25em;
+}
+
+main > section article header div:nth-of-type(2){
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  //margin: 1em;
+}
+
+main > section article header div:nth-of-type(2) p{
+  font-size: 0.85em;
+  margin: 0 0 1em 0.8em;
+  padding: 0.5em;
+  background: #fff;
+}
+
+main > section article header div:nth-of-type(2) p span{
+  font-weight: 600;
+  color: green;
+}
+
+main > section article footer h1{
+  font-size: 0.8em;
+  font-weight: 800;
+  margin-top: 0.25em;
+}
+
+main > section article footer h2{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 0.25em 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+main > section article footer p{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+main > section > footer{
+  grid-column: 1 / 3;
+}
+
+main > section > footer p:nth-of-type(1){
+  font-size: 0.9em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+main > section > footer p:nth-of-type(2) {
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #666;
+}
+
+/* ==================== */
+/* Page 2 main end*/
+/* ==================== */
+
+@media only screen and (min-width: 600px) {
+
+  /* ==============*/
+  /* Section 1 home*/
+  /* ==============*/
+
+  body > section:nth-of-type(1){
+    position: relative;
+    background: transparent;
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+
+  body > section:nth-of-type(1) img{
+    object-position: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  /* ==============*/
+  /* Section 1 home end*/
+  /* ==============*/
+
+  /* ==============*/
+  /* Section 2 home*/
+  /* ==============*/
+
+  body > section:nth-of-type(2){
+    padding: 2em;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: transparent;
+  }
+
+  body > section:nth-of-type(2) div{
+    margin-top: 10em;
+    background: #f1f1f1;
+    grid-column: 1/2;
+    padding: 2em;
+    box-sizing: border-box;
+  }
+
+  body > section:nth-of-type(2) img{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+  }
+
+  /* ==============*/
+  /* Section 2 home end*/
+  /* ==============*/
+
+  /* ==============*/
+  /* Section 3 home*/
+  /* ==============*/
+
+
+  .carousel_style article{
+    width: 21vw;
+    margin-right: 1em;
+  }
+
+  /* ==============*/
+  /* Section 3 home end*/
+  /* ==============*/
+
+  /*==============*/
+  /*Section 4 home*/
+  /*==============*/
+
+    body > section:nth-of-type(4){
+      padding: 2em;
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: transparent;
+    }
+
+    body > section:nth-of-type(4) div{
+      margin-top: 10em;
+      background: #f1f1f1;
+      grid-column: 1/2;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
+    body > section:nth-of-type(4) img{
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: -1;
+    }
+
+    /*==============*/
+    /*Section 4 home end*/
+    /*==============*/
+
+  /* ==================== */
+  /* Footer section 1*/
+  /* ==================== */
+
+    footer section:nth-of-type(1) div{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+  /* ==================== */
+  /* Footer section 1 end*/
+  /* ==================== */
+
+  /* ==================== */
+  /*CSS voor pagina 2 */
+  /* ==================== */
+
+  main > h1 {
+    font-size: 2em;
+    color: #1a1a1a;
+    padding: 0.5em 0;
+    order: -2;
+    grid-column: 1 / 3;
+  }
+
+  main > aside {
+    grid-column: 1 / 3;
+    order: 2;
+  }
+
+  main > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1 / 3;
+    order: 2;
+    margin-top: 3em;
+  }
+
+  main > div div:nth-of-type(1){
+    display: block;
+    position: relative;
+  }
+
+  main > div div:nth-of-type(1) button{
+    font-size: 0.9em;
+    color: #1a1a1a;
+    padding: 0.5em 1em;
+    background: #fff;
+    border-radius: 0.25em;
+    border: 1px solid #ccc;
+  }
+
+  main > div div:nth-of-type(1) button:hover{
+    background: #f1f1f1;
+  }
+
+  main > div div:nth-of-type(1) button span{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+
+  main > div div:nth-of-type(2){
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 1 / 4;
+    order: -1;
+  }
+
+  main > div div:nth-of-type(2) p{
+    font-weight: 200;
+  }
+
+  main > section {
+    margin-top: 4em;
+    order: 3;
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em 1em;
+  }
+
+  main > section > footer{
+    grid-column: 1 / 4;
+  }
+
+  /* ==================== */
+  /*CSS voor pagina 2 end*/
+  /* ==================== */
+}
+
+@media only screen and (min-width: 740px) {
+
+  /* ==================== */
+  /* Footer section 1*/
+  /* ==================== */
+
+  footer section:nth-of-type(1) div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  /* ==================== */
+  /* Footer section 1 end*/
+  /* ==================== */
+
+  /* ==================== */
+  /* Footer section 2*/
+  /* ==================== */
+
+  footer section:nth-of-type(2) > div {
+    width: 55%;
+  }
+
+  /* ==================== */
+  /* Footer section 2 end*/
+  /* ==================== */
+
+  /* ==================== */
+  /* Footer section 3*/
+  /* ==================== */
+
+  footer section:nth-of-type(3) {
+    background: #eceaeb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em 0;
+    box-sizing: border-box;
+    padding: 1em 0 4em 0;
+  }
+
+  footer section:nth-of-type(3) div {
+    padding: 1em 2em 0 2em;
+    border: none;
+    background: #eceaeb;
+    border-right: 1px solid #cfcfcf;
+  }
+
+  footer section:nth-of-type(3) div:nth-of-type(1) {
+    grid-column: 1/3;
+  }
+
+  footer section:nth-of-type(3) div:nth-of-type(7) {
+    grid-column: 2/4;
+  }
+
+  footer section:nth-of-type(3) div:nth-of-type(1) ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  footer section:nth-of-type(3) div h1{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #474141;
+    //padding-bottom: 0.8em;
+  }
+
+  footer section:nth-of-type(3) div ul{
+    overflow: hidden;
+    height: auto;
+    padding-top: 2em;
+  }
+
+  .open_footer_info{
+    height: auto !important;
+    transition: 0.5s ease;
+  }
+
+  footer section:nth-of-type(3) div ul li{
+    color: #666;
+    list-style: none;
+    font-size: 0.9em;
+    font-weight: 200;
+    margin-bottom: 0.8em;
+    cursor: pointer;
+  }
+
+  footer section:nth-of-type(3) div ul li:hover{
+    text-decoration: underline;
+  }
+
+  /* ==================== */
+  /* Footer section 3 end*/
+  /* ==================== */
+
+}
+
+@media only screen and (min-width: 950px) {
+
+  /* ==================== */
+  /*CSS voor pagina 2*/
+  /* ==================== */
+
+  main{
+    box-sizing: border-box;
+    padding: 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  main > h1 {
+    font-size: 2em;
+    color: #1a1a1a;
+    padding: 0.5em 0;
+    order: 0;
+    grid-column: 2 / 6;
+  }
+
+  main > aside {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 2em;
+  }
+
+  main > aside button {
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: 0.25em 0;
+  }
+
+  main > aside button:hover {
+    border: none;
+    border-bottom: 2px solid #1a1a1a;
+  }
+
+  main > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 2 / 6;
+    order: 0;
+    margin-top: 3em;
+  }
+
+  main > div div:nth-of-type(1){
+    display: block;
+    position: relative;
+  }
+
+  main > div div:nth-of-type(1) button{
+    font-size: 0.9em;
+    color: #1a1a1a;
+    padding: 0.5em 1em;
+    background: #fff;
+    border-radius: 0.25em;
+    border: 1px solid #ccc;
+  }
+
+  main > div div:nth-of-type(1) button:hover{
+    background: #f1f1f1;
+  }
+
+  main > div div:nth-of-type(1) button span{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+
+  main > div div:nth-of-type(2){
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 2 / 4;
+    order: 0;
+  }
+
+  main > div div:nth-of-type(2) p{
+    font-weight: 200;
+  }
+
+  main > section {
+    margin-top: 2em;
+    order: 0;
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em 1em;
+  }
+
+  main > section > footer{
+    grid-column: 1 / 4;
+  }
+
+  /* ==================== */
+  /*CSS voor pagina 2 end*/
+  /* ==================== */
 }

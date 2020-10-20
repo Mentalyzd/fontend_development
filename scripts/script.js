@@ -1,3 +1,19 @@
+//Functie voor het openen van de footer menu.
+
+function openAndClose(welkeIsGeklikt){
+  var data = welkeIsGeklikt.dataset.state
+  if (data == 0) {
+    welkeIsGeklikt.dataset.state = "1";
+    welkeIsGeklikt.children[1].classList.add("open_footer_info");
+  }else if (data == 1) {
+    welkeIsGekliktwelkeIsGeklikt.dataset.state = "0";
+    welkeIsGeklikt.children[1].classList.remove("open_footer_info");
+  }
+
+}
+
+//Functie voor het open en dicht maken van de navbar.
+
 var mobile_menu_wrap = document.querySelector("#mobile_menu_wrap");
 var menu_open = document.querySelector("#menu_open");
 var menu_close = document.querySelector("#menu_close");
@@ -21,6 +37,7 @@ function closeMenu() {
 menu_open.addEventListener("click", openMenu);
 menu_close.addEventListener("click", closeMenu);
 
+//Functie voor de carousel op de homepagina.
 
 let courselCont;
 let carouselFwdBtn;
@@ -29,8 +46,6 @@ let carouselWith;
 let carouselChild;
 let carouselStep;
 let positie = [];
-
-
 
 carousel_style = document.getElementsByClassName("carousel_style");
 
@@ -50,14 +65,6 @@ function testen(carousel_style) {
   carouselChild = courselCont.childElementCount;
   carouselStep = carouselWith/carouselChild*2;
 
-  console.log(welkeCarousel);
-  console.log(courselCont);
-  console.log(carouselFwdBtn);
-  console.log(carouselBwdBtn);
-  console.log(carouselWith);
-  console.log(carouselChild);
-  console.log(carouselStep);
-
   carouselFwdBtn.addEventListener("click", function() {
     naarvoren(courselCont, carouselFwdBtn, carouselBwdBtn, carouselWith, carouselChild, carouselStep, welkeCarousel );
   });
@@ -66,26 +73,7 @@ function testen(carousel_style) {
   });
 }
 
-//courselCont = document.querySelector('#coursel_cont');
-//carouselFwdBtn = document.querySelector('#carousel_fwd_btn');
-//carouselBwdBtn = document.querySelector('#carousel_bwd_btn');
-
-//var carouselWith = courselCont.offsetWidth;
-//var carouselChild = courselCont.childElementCount;
-//var carouselStep = carouselWith/carouselChild*2;
-
-//function updateCont() {
-  //carouselWith = courselCont.offsetWidth;
-  //carouselChild = courselCont.childElementCount;
-  //carouselStep = carouselWith/carouselChild*2;
-//}
-
-
-
 function naarvoren( courselCont, carouselFwdBtn, carouselBwdBtn, carouselWith, carouselChild, carouselStep, welkeCarousel){
-  //updateCont();
-  console.log(positie);
-
   if (positie[welkeCarousel] >= carouselWith - carouselStep - carouselStep) {
     carouselFwdBtn.style.display = "none";
     positie[welkeCarousel] = carouselWith - carouselStep;
@@ -98,8 +86,6 @@ function naarvoren( courselCont, carouselFwdBtn, carouselBwdBtn, carouselWith, c
 }
 
 function naarachter( courselCont, carouselFwdBtn, carouselBwdBtn, carouselWith, carouselChild, carouselStep, welkeCarousel){
-  //updateCont();
-  console.log(positie);
   if (positie[welkeCarousel] <= carouselStep) {
     carouselBwdBtn.style.display = "none";
     positie[welkeCarousel] = 0;
@@ -109,5 +95,4 @@ function naarachter( courselCont, carouselFwdBtn, carouselBwdBtn, carouselWith, 
     positie[welkeCarousel] = positie[welkeCarousel] - carouselStep;
     courselCont.style.transform = "translateX(-"+ positie[welkeCarousel] +"px)";
   }
-
 }
