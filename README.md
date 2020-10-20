@@ -20,7 +20,9 @@ Allereerst ben ik begonnen met het responsive maken van de homepagina en de navb
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(20).png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(21).png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(22).png)
 
 
 
