@@ -677,7 +677,7 @@ footer section:nth-of-type(1) div a span{
 
 footer section:nth-of-type(2){
   box-sizing: border-box;
-  padding: 2em;
+  //padding: 2em;
   margin-bottom: 1.5em;
   background-image: url('../images/footer_banner.jpg');
   background-repeat: no-repeat;
@@ -687,10 +687,10 @@ footer section:nth-of-type(2){
 
 footer section:nth-of-type(2) > div{
   padding: 1.8em;
-  width: 75%;
+  //width: 75%;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #f1f1f1;
   border-radius: 0.15em;
 }
 
@@ -749,7 +749,7 @@ footer section:nth-of-type(2) > div form a{
   font-size: 0.7em;
   font-weight: 300;
   line-height: 1.5em;
-  width: 36em;
+  width: 95%;
   color: #666;
 }
 
@@ -1204,6 +1204,23 @@ main > section > footer p:nth-of-type(2) {
 
   /* ==================== */
   /* Footer section 1 end*/
+  /* ==================== */
+
+  /* ==================== */
+  /* Footer section 2*/
+  /* ==================== */
+
+  footer section:nth-of-type(2){
+    padding: 2em;
+  }
+
+  footer section:nth-of-type(2) > div{
+    background: #fff;
+    width: 75%;
+  }
+
+  /* ==================== */
+  /* Footer section 2 end*/
   /* ==================== */
 
   /* ==================== */
