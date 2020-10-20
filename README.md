@@ -24,13 +24,13 @@ Allereerst ben ik begonnen met het responsive maken van de homepagina en de navb
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(31).png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(322).png)
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(33).png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(34).png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(35).png)
-
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(36).png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(37).png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(38).png)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(34).png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Schermopname(33).png)
 
 
 
