@@ -6,15 +6,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -https://www.zalando.nl/heren-home/ Pagina 1 (Home)
+2. -https://www.zalando.nl/heren/- Pagina 2 (Here Mode)
+3. -https://mosaic03.ztat.net/- Site waar de meeste foto's vandaan komen.
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+
+Allereerst ben ik begonnen met het responsive maken van de homepagina en de navbar. De navbar vond ik wel lastig omdat er een heel groot verschil is tussen de mobiele en de desktop. Uiteindelijk heb ik het goed opkunnen lossen met grid. Ik ben erg tevrede moet hoe het is geworden. Als laatst heb ik alle puntjes op de I gezet.
 
 **Screenshot(s):**
 
@@ -26,11 +28,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+-dit ging goed & dit was lastig-
+
+Allereerst ben ik begonnen met het afmaken van de footer. De mobiele footer bevat een stukje javascript om een menu te openen. Dit ging erg soepel. Daarna ben ik begonnen met het maken van de tweede pagina. Dit was een beetje een goedoe, omdat het responsive maken nogal een uitdaging was. Ik heb veel gewerkt met grid om uiteidelijk het gewenste resultaat te krijgen.
+
 
 
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
+
+-dit ging goed & dit was lastig-
+
+Ik heb de mobiele home website afgemaakt, dit ging zonder tegen slagen. Daarna ben ik aan de slag gegaan met de javascript functionaliteiten met name de navbar, die moet te voorschijn komen als je op de hamburger menu klikt. Ook heb ik een slider carousel gemaakt dit is erg lastig omdat ik met één function alle carousel wil besturen. Uiteindelijk is het een soort van gelukt.
 
 
 
