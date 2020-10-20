@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -https://www.zalando.nl/heren-home/ Pagina 1 (Home)
-2. -https://www.zalando.nl/heren/- Pagina 2 (Here Mode)
-3. -https://mosaic03.ztat.net/- Site waar de meeste foto's vandaan komen.
+1. https://www.zalando.nl/heren-home/ Pagina 1 (Home)
+2. https://www.zalando.nl/heren/- Pagina 2 (Here Mode)
+3. https://mosaic03.ztat.net/- Site waar de meeste foto's vandaan komen.
 
 
 
